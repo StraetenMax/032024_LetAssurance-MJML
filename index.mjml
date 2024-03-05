@@ -2,31 +2,47 @@
 <!--Head-->
 <mj-head>
     <mj-attributes>
-        <mj-class name="D_section" background-color="#ffffff" />
+        <mj-class name="D_section" background-color="#ffffff" padding="20px 32px" />
+        <mj-all font-family="Arial" />
     </mj-attributes>
     <mj-title>Lettre de l'école de l'Assurance</mj-title>
     <mj-breakpoint width="320px" />
 </mj-head>
 <!--Body-->
-    <mj-body background-color="#000000">
+    <mj-body background-color="#efefef">
     <!--lettre Mirroir-->
     <mj-section mj-class="D_section" >
         <mj-column>
         <mj-text>
-            si
+            si vous n'arrivez pas à lire cet email, cliquez ici
         </mj-text>
         </mj-column>
     </mj-section>
     <!--banniere Logo-->
     <mj-section mj-class="D_section">
         <mj-column>
+        <mj-image src="" alt="Logo" />
+        </mj-column>
+        <mj-column>
+        <mj-image src="" alt="Logo" />  
+        <mj-social>
+            <mj-social-element>
+                Facebook
+            </mj-social-element>
+            <mj-social-element>
+                Instagram
+            </mj-social-element>
+            <mj-social-element>
+                Linkedin
+            </mj-social-element>
+        </mj-social>
         </mj-column>
     </mj-section>
     <!--Numéro Newsletter-->
     <mj-section mj-class="D_section">
         <mj-column width="600px">
             <mj-text>
-                Texte
+                Newsletter Ecossup Assurance | Avril 2024 | Numéro 1
             </mj-text>
         </mj-column>
     </mj-section>
@@ -174,14 +190,17 @@
                     59200 Tourcoing
                 </mj-text>
                 <mj-text>
-                    Tél 03.20.70.06.06                </mj-text>
+                    Tél 03.20.70.06.06                
+                </mj-text>
                 <mj-text>
                     contact@ecosup-campus.fr
                 </mj-text>
                 <mj-text>
-                    Pour être sûr(e) de recevoir nos communications, ajoutez 
+                    Pour être sûr(e) de recevoir nos communications, ajoutez contact@ecosup-campus.fr dans votre carnet d'adresses.
                 </mj-text>
-
+                <mj-text>
+                    Pour vous désinscrire de nos communications par courriel, cliquez ici.
+                </mj-text>
             </mj-column>
         </mj-section>
     </mj-body>
