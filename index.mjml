@@ -21,10 +21,10 @@
     <!--banniere Logo-->
     <mj-section mj-class="D_section">
         <mj-column>
-        <mj-image src="" alt="Logo" />
+        <mj-image src="" alt="Logo Ecosup Assurance" />
         </mj-column>
         <mj-column>
-        <mj-image src="" alt="Logo" />  
+        <mj-image src="" alt="Logo de la Newsletter" />  
         <mj-social>
             <mj-social-element>
                 Facebook
@@ -61,7 +61,7 @@
                 en France en 2024
             </mj-text>
             <mj-text>
-                Texte
+                Voici plusieurs années que la France fournit un effort considérable sur la formation des jeunes en alternance et en apprentissage. Cette méthode de formation, qui souffrait parfois d'une mauvaise image, a bénéficié d'une prise de conscience et de nombreuses évolutions ces dernières années. Les mesures prises et les orientations ont permis un changement de mentalité tant auprès des étudiants que des entreprises. Mais qu'en est-il vraiment ? Quel est le bilan de ces années d'investissement ?
             </mj-text>
             <mj-button>
                 Button
@@ -75,7 +75,7 @@
     </mj-column>
     <mj-column>
     <mj-text>
-        Sous-titre
+        Assurance vie, Valeurs mobilières
     </mj-text>
     <mj-text>
         Les fonds d'assurance vie labellisés
@@ -119,6 +119,11 @@
 <!--Agenda-->
     <mj-section mj-class="D_section">
         <!--Date 1-->
+    <mj-column width="600px">
+        <mj-text>
+            A vos Agendas
+        </mj-text>
+    </mj-column>
     <mj-column>
      <mj-text>
         Samedi
@@ -185,7 +190,7 @@
         <!--footer-->
         <mj-section mj-class="D_section">
             <mj-column>
-                <mj-image src="" alt="Logo" />
+                <mj-image src="" alt="Logo Ecosup Campus" />
                 <mj-text>
                     17 rue Charles et Albert Roussel
                 </mj-text>
