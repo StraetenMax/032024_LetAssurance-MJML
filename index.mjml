@@ -12,16 +12,55 @@
     <!--lettre Mirroir-->
     <mj-section>
         <mj-column>
-            
         </mj-column>
     </mj-section>
-    <!--Banniere Logo-->
+    <!--banniere Logo-->
     <mj-section>
         <mj-column>
-            
         </mj-column>
     </mj-section>
-    
-        
+    <!--Numéro Newsletter-->
+    <mj-section>
+    </mj-section>
+    <!--Hero-->
+    <mj-section>
+    </mj-section>
+    <!--Texte 1-->
+    <mj-section>
+    <mj-column>
+    </mj-column>
+    <mj-column>        
+    </mj-column>
+    </mj-section>
+<!--Texte 2-->
+    <mj-section>
+    <mj-column>
+    </mj-column>
+    <mj-column>        
+    </mj-column>
+    </mj-section>
+<!--Video-->
+    <mj-section>
+    <mj-column>
+    </mj-column>
+    <mj-column>        
+    </mj-column>
+    </mj-section>
+<!--Agenda-->
+    <mj-section>
+        <!--Date 1-->
+    <mj-column>
+    </mj-column>
+        <!--Date 2-->
+    <mj-column>        
+    </mj-column>
+        <!--Date 3-->
+    <mj-column>    
+    </mj-column>
+    </mj-section>
+        <!--footer-->
+        <mj-section>
+            
+        </mj-section>
     </mj-body>
 </mjml>
