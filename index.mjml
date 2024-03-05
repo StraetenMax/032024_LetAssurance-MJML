@@ -1,4 +1,5 @@
 <mjml>
+<!--Head-->
 <mj-head>
     <mj-attributes>
         
@@ -6,12 +7,21 @@
     <mj-title>Lettre de l'école de l'Assurance</mj-title>
     <mj-breakpoint width="320px" />
 </mj-head>
+<!--Body-->
     <mj-body>
+    <!--lettre Mirroir-->
     <mj-section>
         <mj-column>
             
         </mj-column>
     </mj-section>
+    <!--Banniere Logo-->
+    <mj-section>
+        <mj-column>
+            
+        </mj-column>
+    </mj-section>
+    
         
     </mj-body>
 </mjml>
