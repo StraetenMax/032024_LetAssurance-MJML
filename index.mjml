@@ -32,7 +32,7 @@
             <mj-social-element>
                 Instagram
             </mj-social-element>
-            <mj-social-element>
+            <mj-social-element>     
                 Linkedin
             </mj-social-element>
         </mj-social>
@@ -52,10 +52,13 @@
             Image
             <mj-image src="#" alt="Image" />
             <mj-text>
-                Sous titre
+                Dossier
             </mj-text>
             <mj-text>
-                Titre
+                L'Alternance
+            </mj-text>
+            <mj-text>
+                en France en 2024
             </mj-text>
             <mj-text>
                 Texte
@@ -75,10 +78,10 @@
         Sous-titre
     </mj-text>
     <mj-text>
-        Titre
+        Les fonds d'assurance vie labellisés
     </mj-text>
     <mj-text>
-        Texte               
+        Ces dernières années, les produits financiers labellisés ont connu un expansion remarque. En Europe, en juillet 2023, plus de 2 500 fonds étaient arborés du prestigieux label, avec des... 
     </mj-text>
     </mj-column>
     </mj-section>
@@ -89,13 +92,13 @@
     </mj-column>
     <mj-column>
     <mj-text>
-        sous titre
+        formation
     </mj-text>
     <mj-text>
-        titre
+        Notre BTS Assurance en Apprentissage
     </mj-text>
     <mj-text>
-        texte
+        Diplôme d'Etat, le BTS Assurance à Lille permet aux diplômé(e)s d'exercer à plein temps une activité à caractère...
     </mj-text>       
     </mj-column>
     </mj-section>
@@ -103,7 +106,7 @@
     <mj-section mj-class="D_section">
     <mj-column>
     <mj-text>
-        titre
+        Découvrez notre chaîne Youtube
     </mj-text>
     <mj-button>
         plus
@@ -133,7 +136,7 @@
         9h30 à 13h
      </mj-text>
      <mj-button>
-        inscrivez-vous
+        s'inscrire
      </mj-button>
     </mj-column>
         <!--Date 2-->
@@ -154,7 +157,7 @@
         9h30 à 13h
      </mj-text>
      <mj-button>
-        inscrivez-vous
+        s'inscrire
      </mj-button>
     </mj-column>
         <!--Date 3-->
@@ -175,7 +178,7 @@
         9h30 à 13h
      </mj-text>
      <mj-button>
-        inscrivez-vous
+        s'inscrire
      </mj-button>
     </mj-column>
     </mj-section>
