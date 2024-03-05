@@ -2,65 +2,187 @@
 <!--Head-->
 <mj-head>
     <mj-attributes>
-        
+        <mj-class name="D_section" background-color="#ffffff" />
     </mj-attributes>
     <mj-title>Lettre de l'école de l'Assurance</mj-title>
     <mj-breakpoint width="320px" />
 </mj-head>
 <!--Body-->
-    <mj-body>
+    <mj-body background-color="#000000">
     <!--lettre Mirroir-->
-    <mj-section>
+    <mj-section mj-class="D_section" >
         <mj-column>
+        <mj-text>
+            si
+        </mj-text>
         </mj-column>
     </mj-section>
     <!--banniere Logo-->
-    <mj-section>
+    <mj-section mj-class="D_section">
         <mj-column>
         </mj-column>
     </mj-section>
     <!--Numéro Newsletter-->
-    <mj-section>
+    <mj-section mj-class="D_section">
+        <mj-column width="600px">
+            <mj-text>
+                Texte
+            </mj-text>
+        </mj-column>
     </mj-section>
     <!--Hero-->
-    <mj-section>
+    <mj-section mj-class="D_section">
+        <mj-column width="600px">
+            Image
+            <mj-image src="#" alt="Image" />
+            <mj-text>
+                Sous titre
+            </mj-text>
+            <mj-text>
+                Titre
+            </mj-text>
+            <mj-text>
+                Texte
+            </mj-text>
+            <mj-button>
+                Button
+            </mj-button>
+        </mj-column>        
     </mj-section>
     <!--Texte 1-->
-    <mj-section>
+    <mj-section mj-class="D_section">
     <mj-column>
+        <mj-image src="" alt="Image" />
     </mj-column>
-    <mj-column>        
+    <mj-column>
+    <mj-text>
+        Sous-titre
+    </mj-text>
+    <mj-text>
+        Titre
+    </mj-text>
+    <mj-text>
+        Texte               
+    </mj-text>
     </mj-column>
     </mj-section>
 <!--Texte 2-->
-    <mj-section>
+    <mj-section mj-class="D_section">
     <mj-column>
+    <mj-image src="" alt="Image" />
     </mj-column>
-    <mj-column>        
+    <mj-column>
+    <mj-text>
+        sous titre
+    </mj-text>
+    <mj-text>
+        titre
+    </mj-text>
+    <mj-text>
+        texte
+    </mj-text>       
     </mj-column>
     </mj-section>
 <!--Video-->
-    <mj-section>
+    <mj-section mj-class="D_section">
     <mj-column>
+    <mj-text>
+        titre
+    </mj-text>
+    <mj-button>
+        plus
+    </mj-button>
     </mj-column>
-    <mj-column>        
+    <mj-column>  
+    <mj-image src="" alt="Image" />      
     </mj-column>
     </mj-section>
 <!--Agenda-->
-    <mj-section>
+    <mj-section mj-class="D_section">
         <!--Date 1-->
     <mj-column>
+     <mj-text>
+        Samedi
+     </mj-text>
+     <mj-text>
+        23 mars
+     </mj-text>
+     <mj-text>
+        Journée
+     </mj-text>
+     <mj-text>   
+    Portes Ouvertes
+     </mj-text>
+     <mj-text>
+        9h30 à 13h
+     </mj-text>
+     <mj-button>
+        inscrivez-vous
+     </mj-button>
     </mj-column>
         <!--Date 2-->
-    <mj-column>        
+    <mj-column>
+     <mj-text>
+        Samedi
+     </mj-text>
+     <mj-text>
+        13 avril
+     </mj-text>
+     <mj-text>
+        Journée
+     </mj-text>
+     <mj-text>
+        Portes Ouvertes
+     </mj-text>
+     <mj-text>
+        9h30 à 13h
+     </mj-text>
+     <mj-button>
+        inscrivez-vous
+     </mj-button>
     </mj-column>
         <!--Date 3-->
-    <mj-column>    
+   <mj-column>
+     <mj-text>
+        Samedi
+     </mj-text>
+     <mj-text>
+        25 mai
+     </mj-text>
+     <mj-text>
+        Journée
+     </mj-text>
+     <mj-text>
+        Portes Ouvertes
+     </mj-text>
+     <mj-text>
+        9h30 à 13h
+     </mj-text>
+     <mj-button>
+        inscrivez-vous
+     </mj-button>
     </mj-column>
     </mj-section>
         <!--footer-->
-        <mj-section>
-            
+        <mj-section mj-class="D_section">
+            <mj-column>
+                <mj-image src="" alt="Logo" />
+                <mj-text>
+                    17 rue Charles et Albert Roussel
+                </mj-text>
+                <mj-text>
+                    59200 Tourcoing
+                </mj-text>
+                <mj-text>
+                    Tél 03.20.70.06.06                </mj-text>
+                <mj-text>
+                    contact@ecosup-campus.fr
+                </mj-text>
+                <mj-text>
+                    Pour être sûr(e) de recevoir nos communications, ajoutez 
+                </mj-text>
+
+            </mj-column>
         </mj-section>
     </mj-body>
 </mjml>
