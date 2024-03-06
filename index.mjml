@@ -47,7 +47,7 @@
     <!--Hero-->
     <mj-section background-color="#EDF2F7" padding="2px 0px">
         <mj-column>
-            <mj-image width="600px" src="#" href="" alt="Image" />
+            <mj-image padding="0" fluid-on-mobile="true" width="600px" src="img/Grand_032024.jpg" href="" alt="Image" />
         </mj-column>
     </mj-section>    
     <mj-section background-color="#EDF2F7" padding="3px 32px 20px 32px">
@@ -72,7 +72,7 @@
     <!--Texte 1-->
     <mj-section mj-class="D_section">
     <mj-column>
-        <mj-image src="" alt="Image" />
+        <mj-image padding="0" fluid-on-mobile="true" src="img/Let1_032024.jpg" alt="Image" />
     </mj-column>
     <mj-column>
     <mj-text padding="2px 0" align="left" font-size="14px" font-weight="700" color="#944694" text-transform="uppercase">
@@ -82,14 +82,17 @@
         Les fonds d'assurance vie labellisés
     </mj-text>
     <mj-text padding="2px 0" line-height="18px" font-weight="300">
-        Ces dernières années, les produits financiers labellisés ont connu un expansion remarque. En Europe, en juillet 2023, plus de 2 500 fonds étaient arborés du prestigieux label, avec des... 
+        Ces dernières années, les produits financiers labellisés ont connu un expansion remarque. En Europe, en juillet 2023, plus de 2 500 fonds étaient arborés du prestigieux label, avec des...
+    </mj-text>
+    <mj-text align="right" color="#BA4995" font-weight="700">
+        <a href="" style="text-decoration:none">Lire plus...</a>    
     </mj-text>
     </mj-column>
     </mj-section>
 <!--Texte 2-->
     <mj-section mj-class="D_section">
     <mj-column>
-    <mj-image src="" alt="Image" />
+    <mj-image padding="0" fluid-on-mobile="true" src="img/let2_032024.jpg" alt="Image" />
     </mj-column>
     <mj-column>
     <mj-text padding="2px 0" align="left" font-size="14px" font-weight="700" color="#944694" text-transform="uppercase" >
@@ -100,7 +103,10 @@
     </mj-text>
     <mj-text padding="2px 0" line-height="18px" font-weight="300">
         Diplôme d'Etat, le BTS Assurance à Lille permet aux diplômé(e)s d'exercer à plein temps une activité à caractère...
-    </mj-text>       
+    </mj-text> 
+    <mj-text align="right" color="#BA4995" font-weight="700">
+        <a href="" style="text-decoration:none">Lire plus...</a>    
+    </mj-text>      
     </mj-column>
     </mj-section>
 <!--Video-->
@@ -117,7 +123,7 @@
     </mj-text>
     </mj-column>
     <mj-column>  
-    <mj-image src="" href="" alt="Image" />      
+    <mj-image padding="0" fluid-on-mobile="true" src="img/video032024.jpg" href="" alt="Image" />      
     </mj-column>
     </mj-section>
 <!--Agenda-->
