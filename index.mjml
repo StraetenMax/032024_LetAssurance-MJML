@@ -2,24 +2,25 @@
 <!--Head-->
 <mj-head>
     <mj-attributes>
+        <mj-text font-size="16px" color="#2D3748"/>
         <mj-class name="D_section" background-color="#ffffff" padding="20px 32px" />
         <mj-all font-family="Arial" />
     </mj-attributes>
     <mj-title>Lettre de l'école de l'Assurance</mj-title>
-    <mj-breakpoint width="320px" />
+    <mj-breakpoint width="480px" />
 </mj-head>
 <!--Body-->
-    <mj-body background-color="#efefef">
+    <mj-body background-color="#fcfcfc">
     <!--lettre Mirroir-->
     <mj-section mj-class="D_section" >
         <mj-column>
-        <mj-text>
+        <mj-text align="center"font-size="12px" font-weight="400" color="#2D3748">
             si vous n'arrivez pas à lire cet email, cliquez ici
         </mj-text>
         </mj-column>
     </mj-section>
     <!--banniere Logo-->
-    <mj-section mj-class="D_section">
+    <mj-section mj-class="D_section" background-color="#EDF2F7">
         <mj-column>
         <mj-image src="" alt="Logo Ecosup Assurance" />
         </mj-column>
@@ -39,22 +40,22 @@
         </mj-column>
     </mj-section>
     <!--Numéro Newsletter-->
-    <mj-section mj-class="D_section">
+    <mj-section mj-class="D_section" background-color="#EDF2F7">
         <mj-column width="600px">
-            <mj-text>
-                Newsletter Ecossup Assurance | Avril 2024 | Numéro 1
+            <mj-text align="left" font-size="16px" font-weight="300" color="#2D3748"> 
+                <span style="font-weight:700;text-transform:uppercase">Newsletter Ecosup Assurance</span> | Avril 2024 | Numéro 1
             </mj-text>
         </mj-column>
     </mj-section>
     <!--Hero-->
-    <mj-section mj-class="D_section">
+    <mj-section mj-class="D_section" background-color="#EDF2F7">
         <mj-column width="600px">
             Image
             <mj-image src="#" alt="Image" />
-            <mj-text>
+            <mj-text color="#944694">
                 Dossier
             </mj-text>
-            <mj-text>
+            <mj-text color="#684092">
                 L'Alternance
             </mj-text>
             <mj-text>
@@ -103,7 +104,7 @@
     </mj-column>
     </mj-section>
 <!--Video-->
-    <mj-section mj-class="D_section">
+    <mj-section mj-class="D_section" background-color="#EDF2F7">
     <mj-column>
     <mj-text>
         Découvrez notre chaîne Youtube
@@ -140,7 +141,7 @@
      <mj-text>
         9h30 à 13h
      </mj-text>
-     <mj-button>
+     <mj-button background-color="#BA4995">
         s'inscrire
      </mj-button>
     </mj-column>
