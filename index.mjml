@@ -12,9 +12,9 @@
 <!--Body-->
     <mj-body background-color="#fcfcfc">
     <!--lettre Mirroir-->
-    <mj-section mj-class="D_section" >
+    <mj-section mj-class="D_section" padding-bottom="4px" >
         <mj-column>
-        <mj-text align="center"font-size="12px" font-weight="400" color="#2D3748">
+        <mj-text padding="0" align="center" font-size="12px" font-weight="400" color="#2D3748">
             si vous n'arrivez pas à lire cet email, cliquez ici
         </mj-text>
         </mj-column>
@@ -41,30 +41,30 @@
     </mj-section>
     <!--Numéro Newsletter-->
     <mj-section mj-class="D_section" background-color="#EDF2F7">
-        <mj-column width="600px">
-            <mj-text align="left" font-size="16px" font-weight="300" color="#2D3748"> 
+        <mj-column>
+            <mj-text padding="2px 0" align="left" font-size="16px" font-weight="300" color="#2D3748"> 
                 <span style="font-weight:700;text-transform:uppercase">Newsletter Ecosup Assurance</span> | Avril 2024 | Numéro 1
             </mj-text>
         </mj-column>
     </mj-section>
     <!--Hero-->
     <mj-section mj-class="D_section" background-color="#EDF2F7">
-        <mj-column width="600px">
+        <mj-column>
             Image
             <mj-image src="#" alt="Image" />
-            <mj-text color="#944694">
+            <mj-text padding="5px 0 2px 0" font-size="14px" font-weight="700" text-transform="uppercase" color="#944694">
                 Dossier
             </mj-text>
-            <mj-text color="#684092">
+            <mj-text padding="0" font-size="28px" font-weight="700" color="#684092">
                 L'Alternance
             </mj-text>
-            <mj-text>
+            <mj-text padding="0 0 4px 0" font-size="28px" font-weight="700" color="#684092">
                 en France en 2024
             </mj-text>
-            <mj-text>
+            <mj-text padding="0" font-size="16px" font-weight="500" line-height="18px">
                 Voici plusieurs années que la France fournit un effort considérable sur la formation des jeunes en alternance et en apprentissage. Cette méthode de formation, qui souffrait parfois d'une mauvaise image, a bénéficié d'une prise de conscience et de nombreuses évolutions ces dernières années. Les mesures prises et les orientations ont permis un changement de mentalité tant auprès des étudiants que des entreprises. Mais qu'en est-il vraiment ? Quel est le bilan de ces années d'investissement ?
             </mj-text>
-            <mj-button>
+            <mj-button padding="10px 0 15px 0" align="right" background-color="#BA4995" color="#ffffff" >
                 Button
             </mj-button>
         </mj-column>        
@@ -75,13 +75,13 @@
         <mj-image src="" alt="Image" />
     </mj-column>
     <mj-column>
-    <mj-text>
+    <mj-text padding="2px 0" align="left" font-size="14px" font-weight="700" color="#944694" text-transform="uppercase">
         Assurance vie, Valeurs mobilières
     </mj-text>
-    <mj-text>
+    <mj-text padding="2px 0" align="left" font-size="20px" font-weight="700" color="#684092">
         Les fonds d'assurance vie labellisés
     </mj-text>
-    <mj-text>
+    <mj-text padding="2px 0" line-height="18px" font-weight="300">
         Ces dernières années, les produits financiers labellisés ont connu un expansion remarque. En Europe, en juillet 2023, plus de 2 500 fonds étaient arborés du prestigieux label, avec des... 
     </mj-text>
     </mj-column>
@@ -92,13 +92,13 @@
     <mj-image src="" alt="Image" />
     </mj-column>
     <mj-column>
-    <mj-text>
+    <mj-text padding="2px 0" align="left" font-size="14px" font-weight="700" color="#944694" text-transform="uppercase" >
         formation
     </mj-text>
-    <mj-text>
+    <mj-text padding="2px 0" align="left" font-size="20px" font-weight="700" color="#684092">
         Notre BTS Assurance en Apprentissage
     </mj-text>
-    <mj-text>
+    <mj-text padding="2px 0" line-height="18px" font-weight="300">
         Diplôme d'Etat, le BTS Assurance à Lille permet aux diplômé(e)s d'exercer à plein temps une activité à caractère...
     </mj-text>       
     </mj-column>
@@ -162,7 +162,7 @@
      <mj-text>
         9h30 à 13h
      </mj-text>
-     <mj-button>
+     <mj-button background-color="#BA4995">
         s'inscrire
      </mj-button>
     </mj-column>
@@ -183,7 +183,7 @@
      <mj-text>
         9h30 à 13h
      </mj-text>
-     <mj-button>
+     <mj-button background-color="#BA4995">
         s'inscrire
      </mj-button>
     </mj-column>
@@ -192,22 +192,22 @@
         <mj-section mj-class="D_section">
             <mj-column>
                 <mj-image src="" alt="Logo Ecosup Campus" />
-                <mj-text>
+                <mj-text padding="2px 0px" /align="center" font-size="14px" font-weight="400" color="#2D3748">
                     17 rue Charles et Albert Roussel
                 </mj-text>
-                <mj-text>
+                <mj-text padding="2px 0px" align="center" font-size="14px" font-weight="400" color="#2D3748" text-transform="uppercase">
                     59200 Tourcoing
                 </mj-text>
-                <mj-text>
+                <mj-text padding="2px 0px" align="center" font-size="14px" font-weight="700" color="#2D3748">
                     Tél 03.20.70.06.06                
                 </mj-text>
-                <mj-text>
+                <mj-text padding="2px 0px 15px 0px" align="center" font-size="14px" font-weight="400" color="#2D3748">
                     contact@ecosup-campus.fr
                 </mj-text>
-                <mj-text>
+                <mj-text padding="0"align="center" font-size="12px" font-weight="400" color="#2D3748">
                     Pour être sûr(e) de recevoir nos communications, ajoutez contact@ecosup-campus.fr dans votre carnet d'adresses.
                 </mj-text>
-                <mj-text>
+                <mj-text padding="0" align="center" font-size="12px" font-weight="400" color="#2D3748">
                     Pour vous désinscrire de nos communications par courriel, cliquez ici.
                 </mj-text>
             </mj-column>
