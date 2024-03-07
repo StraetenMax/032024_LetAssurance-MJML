@@ -4,62 +4,82 @@
     <mj-attributes>
         <mj-text font-size="16px" color="#2D3748"/>
         <mj-class name="D_section" background-color="#ffffff" padding="20px 32px" />
-        <mj-all font-family="Arial, Helvetica, sans-serif" />
+        <mj-all font-family="Arial, Helvetica, sans-serif"/>
     </mj-attributes>
     <mj-title>Lettre de l'école de l'Assurance</mj-title>
     <mj-breakpoint width="480px" />
+    <mj-style>
+        @media all and (max-width: 480px) {
+        .M_padding td{ 
+            padding-left: 32px !important;
+            padding-right: 32px !important;
+          }
+        .M_paddingHead td{
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+          }
+        .M_paddingReset td{
+            padding: 0px !important;
+          }
+        .M_paddingRS td{
+            padding-bottom: 10px !important;
+            padding-right: 10px !important;
+            }
+        }
+    </mj-style>
 </mj-head>
 <!--Body-->
     <mj-body background-color="#fcfcfc">
 <!--lettre Mirroir-->
         <mj-section background-color="#ffffff" padding="20px 32px 4px 32px" >
-            <mj-column>
+            <mj-column >
             <mj-text padding="0" align="center" font-size="11px" font-weight="400" color="#2D3748">
-                si vous n'arrivez pas à lire cet email, cliquez ici
+                si vous n'arrivez pas à lire cet email, cliquez <a href="{{ mirror}}">ici</a>
             </mj-text>
             </mj-column>
         </mj-section>
 <!--banniere Logo-->
-        <mj-section background-color="#EDF2F7" padding="20px 32px 5px 32px">
+        <mj-section background-color="#EDF2F7" padding="20px 32px 5px 32px" css-class="M_paddingHead">
             <mj-group>     
-            <mj-column>
-                <mj-image align="left" padding="0" width="256px" src="img/EcosupAssurance.png" alt="Logo Ecosup Assurance" />
+            <mj-column css-class="M_paddingReset">
+                <mj-image align="left" padding="0" width="256px" src="img/EcosupAssurance.png" href="https://ecosup-assurance.fr" alt="Logo Ecosup Assurance" />
             </mj-column>
-            <mj-column>
+            <mj-column css-class="M_paddingReset">
                 <mj-image align="right" padding="0" width="150px" src="img/logo-Newsleter.png" alt="Logo de la Newsletter" />  
             </mj-column>
             </mj-group>
-        </mj-section>       
-        <mj-section background-color="#EDF2F7" padding="0px 32px"> 
-            <mj-column>
-            <mj-social align="right" icon-size="30px"  mode="horizontal">
-                <mj-social-element src="" href="" alt="logo Facebook">
+        </mj-section>
+<!--Reseaux sociaux-->       
+        <mj-section background-color="#EDF2F7" padding="0px 32px" css-class="M_paddingHead"> 
+            <mj-column css-class="M_paddingReset">
+            <mj-social css-class="M_paddingRS" align="right" padding="0 16px 0 0" icon-size="30px"  mode="horizontal">
+                <mj-social-element src="https://img.mailinblue.com/3403292/images/content_library/original/65e9a0e8e9b9c597806fa9e9.gif" href="https://facebook.com/EcosupCamp/" alt="icon Facebook">
                 </mj-social-element>
-                <mj-social-element src="" href="" alt="logo Instagram">
+                <mj-social-element src="https://img.mailinblue.com/3403292/images/content_library/original/65e9a0f123605bbe5926c9b7.gif" href="https://www.instagram.com/ecosup.campus/" alt="icon Instagram">
                 </mj-social-element>
-                <mj-social-element src="" href="" alt="logo Linkedin">     
+                <mj-social-element src="https://img.mailinblue.com/3403292/images/content_library/original/65e9a0f823605bbe5926c9b9.gif" href="https://linkedin.com/company/ecosup-campus" alt="icon Linkedin">     
                 </mj-social-element>
             </mj-social>
             </mj-column>
         </mj-section>
 <!--Numéro Newsletter-->
-        <mj-section background-color="#EDF2F7" padding="0px 32px">
-            <mj-column>
+        <mj-section background-color="#EDF2F7" padding="0px 32px" css-class="M_paddingHead">
+            <mj-column css-class="M_paddingReset">
                 <mj-text padding="2px 0" align="left" font-size="16px" font-weight="300" color="#2D3748"> 
-                    <span style="font-weight:700;text-transform:uppercase">Newsletter Ecosup Assurance</span> | Avril 2024
+                    <span style="font-weight:700;text-transform:uppercase">News Ecosup Assurance</span> | Avril 2024
                 </mj-text>
             </mj-column>
         </mj-section>
 <!--Hero-->
     <!--Image-->
         <mj-section background-color="#EDF2F7" padding="2px 0px">
-            <mj-column>
+            <mj-column >
                 <mj-image padding="0" fluid-on-mobile="true" width="600px" src="img/Grand_032024.jpg" href="" alt="Image" />
             </mj-column>
         </mj-section>  
     <!--Texte-->  
-        <mj-section background-color="#EDF2F7" padding="10px 60px 20px">
-            <mj-column>     
+        <mj-section background-color="#EDF2F7" padding="10px 60px 20px" css-class="M_padding" >
+            <mj-column css-class="M_paddingReset">     
                 <mj-text padding="5px 0 2px 0" font-size="14px" font-weight="700" text-transform="uppercase" color="#944694">
                     Dossier
                 </mj-text>
@@ -93,7 +113,7 @@
                     Ces dernières années, les produits financiers labellisés ont connu un expansion remarque. En Europe, en juillet 2023, plus de 2 500 fonds étaient arborés du prestigieux label, avec des...
                 </mj-text>
                 <mj-text align="right" color="#BA4995" font-weight="700">
-                <a href="" style="text-decoration:none">Lire plus...</a>    
+                <a href="" style="text-decoration:none">Lire la suite...</a>    
                 </mj-text>
             </mj-column>
         </mj-section>
@@ -113,7 +133,7 @@
         Diplôme d'Etat, le BTS Assurance à Lille permet aux diplômé(e)s d'exercer à plein temps une activité à caractère...
     </mj-text> 
     <mj-text align="right" color="#BA4995" font-weight="700">
-        <a href="" style="text-decoration:none">Lire plus...</a>    
+        <a href="" style="text-decoration:none">Lire la suite...</a>    
     </mj-text>      
     </mj-column>
     </mj-section>
@@ -131,7 +151,8 @@
             </mj-text>
         </mj-column>
         <mj-column padding="8px">  
-            <mj-image padding="0" fluid-on-mobile="true" src="img/video032024.jpg" href="" alt="Image" />      
+            <mj-image padding="0" fluid-on-mobile="true" src="https://img.mailinblue.com/3403292/images/content_library/original/65e9a11ba3bf3a70b5de505f.jpg
+" href="https://youtu.be/7Kj_Ic8KRQI?si=KltJAmddnDR-YEHR" alt="Video sur la présentation de l'Assurance en France"/>      
         </mj-column>
     </mj-section>
 <!--Agenda-->
@@ -141,8 +162,7 @@
             A vos Agendas
         </mj-text>
     </mj-column >
-<!--Date 1-->
-    <mj-group width="100%">      
+<!--Date 1-->     
     <mj-column width="33%" padding="8px">
         <mj-text padding="15px 0 0 0" align="center" container-background-color="#684092" font-size="25px" font-weight="400" text-transform="uppercase" color="#ffffff">
             Samedi
@@ -214,12 +234,11 @@
             s'inscrire
         </mj-button>
     </mj-column>
-    </mj-group>
     </mj-section>
 <!--footer-->
     <mj-section background-color="#ffffff" padding="20px 32px">
          <mj-column>
-            <mj-image width="240px" padding="0" align="center" src="img/ECOSUP_CAMPUS_012024.png" alt="Logo Ecosup Campus" />
+            <mj-image width="240px" padding="0" align="center" src="img/ECOSUP_CAMPUS_012024.png" href="https://ecosup-campus.com" alt="Logo Ecosup Campus" />
             <mj-text padding="0" /align="center" font-size="14px" font-weight="400" color="#2D3748">
                 17 rue Charles et Albert Roussel
             </mj-text>
@@ -236,7 +255,7 @@
                 Pour être sûr(e) de recevoir nos communications, ajoutez contact@ecosup-campus.fr dans votre carnet d'adresses.
             </mj-text>
             <mj-text padding="0" align="center" font-size="11px" font-weight="400" color="#2D3748">
-                Pour vous désinscrire de nos communications par courriel, cliquez ici.
+                Pour vous désinscrire de nos communications par courriel, cliquez <a href="{{ unsubscribe}}">ici</a>.
             </mj-text>
         </mj-column>
     </mj-section>
