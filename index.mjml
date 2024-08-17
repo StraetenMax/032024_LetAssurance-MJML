@@ -102,12 +102,12 @@
             </mj-column>        
         </mj-section>
 <!--Bandeau Accroche-->
-        <mj-section background-color="#684092" padding="20px 60px 20px" css-class="M_padding">
+        <mj-section background-color="#270938" padding="20px 60px 20px" css-class="M_padding">
             <mj-column css-class="M_paddingReset">
             <mj-text align="center" padding="0" font-size="28px" font-weight="500" color="#BA4995">
                     Vous avez l'intention d'effectuer votre <strong style="color:#ffffff;">BTS Assurance ou Bachelor en alternance</strong> et vous <strong style="color:#ffffff;">recherchez une entreprise</strong>
                 </mj-text>
-                <mj-button padding="25px 0 15px 0" align="center" font-size="16px" background-color="#BA4995" color="#ffffff" href="https://ecosup-assurance.fr/apprentissage-france-2024/" >
+                <mj-button padding="25px 0 15px 0" align="center" font-size="16px" background-color="#BA4995" color="#ffffff" href="https://forms.gle/2yn4ZToCPzDbxk46A" >
                     Rejoignez-nous
                 </mj-button>
             </mj-column>
@@ -118,7 +118,7 @@
                 <mj-image padding="0" fluid-on-mobile="true" src="https://img.mailinblue.com/3403292/images/content_library/original/65eb2798d0c8d6691c4e4e8b.jpg" href="https://ecosup-assurance.fr/lettre-recommandation-ptit-plus-parcoursup/" alt="Logo Parcoursup" />
             </mj-column>
             <mj-column padding="8px">
-                <mj-text padding="2px 0" align="left" font-size="14px" font-weight="700" color="#944694" text-transform="uppercase">
+                <mj-text padding="2px 0" align="left" font-size="14px" font-weight="700" color="#944694" line-height="16px" text-transform="uppercase">
                     Actualités assurance 
                 </mj-text>
                 <mj-text padding="2px 0" align="left" font-size="20px" font-weight="700" color="#684092">
@@ -138,7 +138,7 @@
     <mj-image padding="0" fluid-on-mobile="true" src="https://img.mailinblue.com/3403292/images/content_library/original/65eb27a3d0c8d6691c4e4e92.jpg" href="https://ecosup-assurance.fr/loi-hamon-resilier-facilement-possible/" alt="loi Hamon : résilier facilement c'est possible" />
     </mj-column>
     <mj-column padding="8px">
-    <mj-text padding="2px 0" align="left" font-size="14px" font-weight="700" color="#944694" text-transform="uppercase" >
+    <mj-text padding="2px 0" align="left" font-size="14px" font-weight="700" color="#944694" line-height="16px" text-transform="uppercase" >
         assurance de biens | france | particuliers 
     </mj-text>
     <mj-text padding="2px 0" align="left" font-size="20px" font-weight="700" color="#684092">
@@ -244,7 +244,7 @@
         <mj-text padding="15px 0" align="center" container-background-color="#684092" font-size="20px" color="#ffffff">
             9h30 à 13h
         </mj-text>
-        <mj-button padding="17px 0" align="center" background-color="#BA4995" container-background-color="#684092" color="#ffffff">
+        <mj-button padding="17px 0" align="center" background-color="#BA4995" container-background-color="#684092" color="#ffffff" href="https://forms.gle/FC9uWGMx78oidADS7">
             s'inscrire
         </mj-button>
     </mj-column>
@@ -252,7 +252,7 @@
 <!--footer-->
     <mj-section background-color="#ffffff" padding="20px 32px">
          <mj-column>
-            <mj-image width="240px" padding="0" align="center" src="https://img.mailinblue.com/3403292/images/content_library/original/65eb27b4d0c8d6691c4e4e95.png" href="https://ecosup-campus.com" alt="Logo Ecosup Campus" />
+            <mj-image width="220px" padding="0" align="center" src="https://img.mailinblue.com/3403292/images/content_library/original/65eb27b4d0c8d6691c4e4e95.png" href="https://ecosup-campus.com" alt="Logo Ecosup Campus" />
             <mj-text padding="0" /align="center" font-size="14px" font-weight="400" color="#2D3748">
                 17 rue Charles et Albert Roussel
             </mj-text>
